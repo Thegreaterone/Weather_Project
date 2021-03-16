@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" class="search-bar" name="" value="" placeholder="Search">
+      <button class="searchButton_style" type="search" name="button">
+          <img src="images/loupe.png" alt='search_icon_img' width="15em" height="15em">
+        </button>
+    </div>
+    <div class="weather loading">
+      <h2 class="city">Weather in Montego Bay</h2>
+      <h1 class="temp">°C</h1>
+      <div class="flex">
+        <img src="https://openweathermap.org/img/wn/04n.png" alt="weather_icon_img" class="icon" />
+        <div class="description"></div>
+      </div>
+      <div class="humidity">Humidity: </div>
+    </div>
+  </div>
+</body>
+
+</html>
